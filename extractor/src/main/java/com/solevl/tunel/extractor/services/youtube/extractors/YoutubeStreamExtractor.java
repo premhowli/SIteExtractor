@@ -25,13 +25,13 @@ import org.jsoup.nodes.Element;
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Function;
 import org.mozilla.javascript.ScriptableObject;
-import org.schabi.newpipe.extractor.*;
+import com.solevl.tunel.extractor.*;
 import com.solevl.tunel.extractor.exceptions.ContentNotAvailableException;
 import com.solevl.tunel.extractor.exceptions.ExtractionException;
 import com.solevl.tunel.extractor.exceptions.ReCaptchaException;
 import com.solevl.tunel.extractor.linkhandler.LinkHandler;
 import com.solevl.tunel.extractor.services.youtube.ItagItem;
-import org.schabi.newpipe.extractor.stream.*;
+import com.solevl.tunel.extractor.stream.*;
 
 import com.solevl.tunel.extractor.utils.Parser;
 import com.solevl.tunel.extractor.utils.Utils;

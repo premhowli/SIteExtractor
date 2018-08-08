@@ -22,7 +22,7 @@ package com.solevl.tunel.extractor.services.youtube;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.schabi.newpipe.Downloader;
+import com.solevl.tunel.Downloader;
 import com.solevl.tunel.extractor.NewPipe;
 import com.solevl.tunel.extractor.SuggestionExtractor;
 import com.solevl.tunel.extractor.exceptions.ExtractionException;

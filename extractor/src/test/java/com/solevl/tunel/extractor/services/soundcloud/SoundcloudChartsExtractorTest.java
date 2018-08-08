@@ -9,7 +9,7 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.schabi.newpipe.Downloader;
+import com.solevl.tunel.Downloader;
 
 import com.solevl.tunel.extractor.stream.StreamInfoItem;
 

@@ -7,7 +7,7 @@ import com.solevl.tunel.extractor.exceptions.ExtractionException;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.schabi.newpipe.Downloader;
+import com.solevl.tunel.Downloader;
 
 import java.io.IOException;
 

@@ -24,7 +24,7 @@ import com.solevl.tunel.extractor.StreamingService;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.schabi.newpipe.Downloader;
+import com.solevl.tunel.Downloader;
 import com.solevl.tunel.extractor.NewPipe;
 import com.solevl.tunel.extractor.kiosk.KioskList;
 

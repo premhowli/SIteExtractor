@@ -12,7 +12,7 @@ import com.solevl.tunel.extractor.stream.VideoStream;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.schabi.newpipe.Downloader;
+import com.solevl.tunel.Downloader;
 
 import com.solevl.tunel.extractor.services.youtube.linkHandler.YoutubeStreamLinkHandlerFactory;
 import com.solevl.tunel.extractor.stream.StreamExtractor;

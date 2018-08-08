@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import static org.schabi.newpipe.extractor.timeago.TimeAgoPatternsManager.RESOURCE_BUNDLE_ARRAY_SEPARATOR;
+import static com.solevl.tunel.extractor.timeago.TimeAgoPatternsManager.RESOURCE_BUNDLE_ARRAY_SEPARATOR;
 
 public class GenerateResourceBundles {
 

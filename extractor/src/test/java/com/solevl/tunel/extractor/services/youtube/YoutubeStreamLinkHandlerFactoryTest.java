@@ -6,7 +6,7 @@ import com.solevl.tunel.extractor.services.youtube.linkHandler.YoutubeStreamLink
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.schabi.newpipe.Downloader;
+import com.solevl.tunel.Downloader;
 
 import com.solevl.tunel.extractor.exceptions.FoundAdException;
 

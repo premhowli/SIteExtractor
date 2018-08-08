@@ -14,8 +14,8 @@ import com.solevl.tunel.extractor.stream.VideoStream;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.schabi.newpipe.Downloader;
-import org.schabi.newpipe.extractor.stream.*;
+import com.solevl.tunel.Downloader;
+import com.solevl.tunel.extractor.stream.*;
 import com.solevl.tunel.extractor.utils.Utils;
 
 import java.io.IOException;

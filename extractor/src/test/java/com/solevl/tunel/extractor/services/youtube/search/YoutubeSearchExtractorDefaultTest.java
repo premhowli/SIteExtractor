@@ -4,7 +4,7 @@ import com.solevl.tunel.extractor.ListExtractor;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.schabi.newpipe.Downloader;
+import com.solevl.tunel.Downloader;
 import com.solevl.tunel.extractor.InfoItem;
 import com.solevl.tunel.extractor.NewPipe;
 import com.solevl.tunel.extractor.channel.ChannelInfoItem;

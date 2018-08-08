@@ -14,7 +14,7 @@ import com.solevl.tunel.extractor.linkhandler.ListLinkHandler;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.schabi.newpipe.extractor.*;
+import com.solevl.tunel.extractor.*;
 
 import com.solevl.tunel.extractor.exceptions.ExtractionException;
 import com.solevl.tunel.extractor.stream.StreamInfoItem;

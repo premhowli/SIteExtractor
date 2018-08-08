@@ -16,7 +16,7 @@ import com.solevl.tunel.extractor.search.InfoItemsSearchCollector;
 import com.solevl.tunel.extractor.search.SearchExtractor;
 import com.solevl.tunel.extractor.utils.Parser;
 
-import org.schabi.newpipe.extractor.*;
+import com.solevl.tunel.extractor.*;
 
 import javax.annotation.Nonnull;
 import java.io.IOException;

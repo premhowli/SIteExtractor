@@ -8,7 +8,7 @@ import com.solevl.tunel.extractor.subscription.SubscriptionExtractor;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.schabi.newpipe.Downloader;
+import com.solevl.tunel.Downloader;
 
 import com.solevl.tunel.extractor.subscription.SubscriptionItem;
 

@@ -15,8 +15,8 @@ import com.solevl.tunel.extractor.linkhandler.SearchQueryHandlerFactory;
 import com.solevl.tunel.extractor.search.SearchExtractor;
 import com.solevl.tunel.extractor.subscription.SubscriptionExtractor;
 
-import org.schabi.newpipe.extractor.*;
-import org.schabi.newpipe.extractor.linkhandler.*;
+import com.solevl.tunel.extractor.*;
+import com.solevl.tunel.extractor.linkhandler.*;
 
 import com.solevl.tunel.extractor.playlist.PlaylistExtractor;
 import com.solevl.tunel.extractor.stream.StreamExtractor;

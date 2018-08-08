@@ -4,7 +4,7 @@ import com.solevl.tunel.extractor.services.soundcloud.SoundcloudSearchQueryHandl
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.schabi.newpipe.Downloader;
+import com.solevl.tunel.Downloader;
 import com.solevl.tunel.extractor.NewPipe;
 
 import static java.util.Arrays.asList;

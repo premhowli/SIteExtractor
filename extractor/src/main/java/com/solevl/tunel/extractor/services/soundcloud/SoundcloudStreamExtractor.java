@@ -16,13 +16,13 @@ import com.solevl.tunel.extractor.stream.StreamInfoItemsCollector;
 import com.solevl.tunel.extractor.stream.StreamType;
 import com.solevl.tunel.extractor.stream.SubtitlesFormat;
 
-import org.schabi.newpipe.extractor.*;
+import com.solevl.tunel.extractor.*;
 import com.solevl.tunel.extractor.exceptions.ContentNotAvailableException;
 import com.solevl.tunel.extractor.exceptions.ExtractionException;
 import com.solevl.tunel.extractor.linkhandler.LinkHandler;
 import com.solevl.tunel.extractor.stream.VideoStream;
 
-import org.schabi.newpipe.extractor.stream.*;
+import com.solevl.tunel.extractor.stream.*;
 
 import javax.annotation.Nonnull;
 import java.io.IOException;

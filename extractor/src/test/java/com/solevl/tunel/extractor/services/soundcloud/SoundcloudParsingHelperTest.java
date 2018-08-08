@@ -5,7 +5,7 @@ import com.solevl.tunel.extractor.NewPipe;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.schabi.newpipe.Downloader;
+import com.solevl.tunel.Downloader;
 
 public class SoundcloudParsingHelperTest {
     @BeforeClass

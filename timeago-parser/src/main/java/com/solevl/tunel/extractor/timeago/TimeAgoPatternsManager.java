@@ -18,6 +18,8 @@ public class TimeAgoPatternsManager {
     public static String[] getPatternsArray(TimeUnit timeUnit, Locale locale) {
         return ResourceBundleUTF8.getBundle("i18n.time_units", locale).getString(timeUnit.name().toLowerCase())
                 .split(RESOURCE_BUNDLE_ARRAY_SEPARATOR);
+
+                asdfghyt
     }*/
 
     // public static Map<TimeUnit, String[]> getAllPatternsFor(Locale locale)

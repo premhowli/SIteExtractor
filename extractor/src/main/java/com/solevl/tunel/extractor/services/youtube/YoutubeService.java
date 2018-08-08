@@ -27,13 +27,13 @@ import com.solevl.tunel.extractor.services.youtube.linkHandler.YoutubeStreamLink
 import com.solevl.tunel.extractor.services.youtube.linkHandler.YoutubeTrendingLinkHandlerFactory;
 import com.solevl.tunel.extractor.subscription.SubscriptionExtractor;
 
-import org.schabi.newpipe.extractor.*;
-import org.schabi.newpipe.extractor.linkhandler.*;
+import com.solevl.tunel.extractor.*;
+import com.solevl.tunel.extractor.linkhandler.*;
 
 import com.solevl.tunel.extractor.playlist.PlaylistExtractor;
 
-import org.schabi.newpipe.extractor.services.youtube.extractors.*;
-import org.schabi.newpipe.extractor.services.youtube.linkHandler.*;
+import com.solevl.tunel.extractor.services.youtube.extractors.*;
+import com.solevl.tunel.extractor.services.youtube.linkHandler.*;
 import com.solevl.tunel.extractor.stream.StreamExtractor;
 
 import static java.util.Arrays.asList;

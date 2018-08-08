@@ -12,7 +12,7 @@ import com.solevl.tunel.extractor.linkhandler.SearchQueryHandler;
 import com.solevl.tunel.extractor.linkhandler.SearchQueryHandlerFactory;
 import com.solevl.tunel.extractor.playlist.PlaylistExtractor;
 import com.solevl.tunel.extractor.search.SearchExtractor;
-import org.schabi.newpipe.extractor.linkhandler.*;
+import com.solevl.tunel.extractor.linkhandler.*;
 import com.solevl.tunel.extractor.stream.StreamExtractor;
 import com.solevl.tunel.extractor.subscription.SubscriptionExtractor;
 

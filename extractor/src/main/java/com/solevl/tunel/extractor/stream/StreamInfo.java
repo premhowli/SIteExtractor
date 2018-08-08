@@ -9,7 +9,7 @@ import com.solevl.tunel.extractor.exceptions.ContentNotAvailableException;
 import com.solevl.tunel.extractor.exceptions.ExtractionException;
 import com.solevl.tunel.extractor.utils.DashMpdParser;
 
-import org.schabi.newpipe.extractor.*;
+import com.solevl.tunel.extractor.*;
 
 import com.solevl.tunel.extractor.utils.ExtractorHelper;
 
