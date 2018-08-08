@@ -26,7 +26,7 @@ import com.solevl.tunel.extractor.NewPipe;
 import com.solevl.tunel.extractor.StreamingService;
 import com.solevl.tunel.extractor.exceptions.ParsingException;
 
-import org.schabi.newpipe.extractor.*;
+import com.solevl.tunel.extractor.*;
 import com.solevl.tunel.extractor.exceptions.ExtractionException;
 import com.solevl.tunel.extractor.stream.StreamInfoItem;
 import com.solevl.tunel.extractor.linkhandler.ListLinkHandler;
