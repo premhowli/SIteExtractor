@@ -8,7 +8,7 @@ SiteExtractor is a library for extracting things from streaming sites.
 
 SiteExtractor is available at JitPack's Maven repo.
 
-If you're using Gradle, you could add Tunnel Extractor as a dependency with the following steps:
+If you're using Gradle, you could add SiteExtractor as a dependency with the following steps:
 
 1. Add `maven { url 'https://jitpack.io' }` to the `repositories` in your `build.gradle`.
 2. Add `compile 'com.github.premhowli:SIteExtractor:v0.2.3'`the `dependencies` in your `build.gradle`. Replace `v0.2.3` with the latest release.
