@@ -1,9 +1,9 @@
 allprojects {
     apply plugin: 'java-library'
-    sourceCompatibility = 1.7
-    targetCompatibility = 1.7
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
 
-    version 'v0.13.0'
+    version 'v0.7.3'
 
     repositories {
         jcenter()
@@ -30,18 +30,10 @@ subprojects {
 }
 
 // https://discuss.gradle.org/t/best-approach-gradle-multi-module-project-generate-just-one-global-javadoc/18657/21
-task aggregatedJavadocs(type: Javadoc, group: 'Documentation') {
-    destinationDir = file("$buildDir/docs/javadoc")
-    title = "$project.name $version"
-    // options.memberLevel = JavadocMemberLevel.PRIVATE
-    options.links 'https://docs.oracle.com/javase/7/docs/api/'
-    
-    subprojects.each { project ->
-        project.tasks.withType(Javadoc).each { javadocTask ->
-            source += javadocTask.source
-            classpath += javadocTask.classpath
-            excludes += javadocTask.excludes
-            includes += javadocTask.includes
-        }
-    }
+
+
+jar {
+    from project.sourceSets.main.allSource
+    from project(":extractor").sourceSets.main.java.srcDirs
+    from project(":timeago-parser").sourceSets.main.java.srcDirs
 }
