@@ -32,8 +32,3 @@ subprojects {
 // https://discuss.gradle.org/t/best-approach-gradle-multi-module-project-generate-just-one-global-javadoc/18657/21
 
 
-jar {
-    from project.sourceSets.main.allSource
-    from project(":extractor").sourceSets.main.java.srcDirs
-    from project(":timeago-parser").sourceSets.main.java.srcDirs
-}
