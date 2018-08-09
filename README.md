@@ -1,6 +1,7 @@
 # SiteExtractor
 
-[![Build Status](https://travis-ci.org/Teamtunel/tunelExtractor.svg?branch=master)](https://travis-ci.org/Teamtunel/tunelExtractor) [![JIT Pack Badge](https://jitpack.io/v/premhowli/SIteExtractor.svg)](https://jitpack.io/#premhowli/SIteExtractor) [Documentation](https://teamtunel.github.io/tunelExtractor/javadoc/)
+[![Build Status](https://travis-ci.org/Teamtunel/tunelExtractor.svg?branch=master)](https://travis-ci.org/Teamtunel/tunelExtractor) [![JIT Pack Badge](https://jitpack.io/v/premhowli/SiteExtractor.svg)](https://jitpack.io/#premhowli/SiteExtractor)
+ [Documentation](https://teamtunel.github.io/tunelExtractor/javadoc/)
 
 SiteExtractor is a library for extracting things from streaming sites.
 
