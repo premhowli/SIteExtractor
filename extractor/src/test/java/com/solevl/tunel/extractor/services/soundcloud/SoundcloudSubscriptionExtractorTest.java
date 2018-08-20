@@ -28,8 +28,8 @@ public class SoundcloudSubscriptionExtractorTest {
     @BeforeClass
     public static void setupClass() {
         NewPipe.init(Downloader.getInstance());
-        subscriptionExtractor = new SoundcloudSubscriptionExtractor(ServiceList.SoundCloud);
-        urlHandler = ServiceList.SoundCloud.getChannelLHFactory();
+        //subscriptionExtractor = new SoundcloudSubscriptionExtractor(ServiceList.SoundCloud);
+        //urlHandler = ServiceList.SoundCloud.getChannelLHFactory();
     }
 
     @Test

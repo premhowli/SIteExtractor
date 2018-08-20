@@ -36,6 +36,10 @@ import com.solevl.tunel.extractor.stream.*;
 import com.solevl.tunel.extractor.utils.Parser;
 import com.solevl.tunel.extractor.utils.Utils;
 
+import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.io.IOException;
@@ -166,10 +170,31 @@ public class YoutubeStreamExtractor extends StreamExtractor {
     public String getDescription() throws ParsingException {
         assertPageFetched();
         try {
-            return doc.select("p[id=\"eow-description\"]").first().html();
+            return parseHtmlAndGetFullLinks(doc.select("p[id=\"eow-description\"]").first().html());
         } catch (Exception e) {//todo: add fallback method <-- there is no ... as long as i know
             throw new ParsingException("Could not get the description", e);
         }
+    }
+
+    private String parseHtmlAndGetFullLinks(String descriptionHtml)
+            throws MalformedURLException, UnsupportedEncodingException, ParsingException {
+        final Document description = Jsoup.parse(descriptionHtml, getUrl());
+        for(Element a : description.select("a")) {
+            final URL redirectLink = new URL(
+                    a.attr("abs:href"));
+            final String queryString = redirectLink.getQuery();
+            if(queryString != null) {
+                // if the query string is null we are not dealing with a redirect link,
+                // so we don't need to override it.
+                final String link =
+                        Parser.compatParseMap(queryString).get("q");
+                // if link is null the a tag is a hashtag. They refer to the youtube search. We do not handle them.
+                if(link != null) {
+                    a.text(link);
+                }
+            }
+        }
+        return description.select("body").first().html();
     }
 
     @Override
